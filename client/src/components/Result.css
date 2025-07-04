@@ -1,0 +1,41 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+}
+
+.result-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.result-container a {
+  font-size: 1.2rem;
+  color: #2563eb;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.result-container a:hover {
+  color: #1e40af;
+}
+
+.result-container a:visited {
+  color: #4b5563;
+}
+
+.result-container .back-link {
+  font-size: 1rem;
+  color: #10b981;
+  text-decoration: none;
+}
+
+.result-container .back-link:hover {
+  text-decoration: underline;
+}
